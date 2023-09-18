@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Facebook",
+    "src": "images/icon-facebook.svg"
+  },
+  {
+    "name": "Instagram",
+    "src": "images/icon-instagram.svg"
+  },
+  {
+    "name": "Twitter",
+    "src": "images/icon-twitter.svg"
+  },
+  {
+    "name": "Pinterest",
+    "src": "images/icon-pinterest.svg"
+  }
+]

@@ -1,0 +1,84 @@
+@import '../../styles/variables';
+
+.testimonials {
+  padding: 4rem 1.75rem 5.75rem;
+  text-align: center;
+
+  &__title {
+    color: $grey;
+    font-family: $title-font;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 4.15rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4.25rem;
+  }
+
+  &__item {
+    letter-spacing: -0.3px;
+
+
+    img {
+      border-radius: 100%;
+      width: 72px;
+      margin-bottom: 1.85rem;
+    }
+
+    p {
+      color: $greyish-blue;
+      font-size: 1.15rem;
+      line-height: 2rem;
+      margin-bottom: 2.2rem;
+    }
+
+    h4 {
+      font-family: $title-font;
+      font-weight: 900;
+      font-size: 1.15rem;
+      color: $dark-blue;
+      margin-bottom: 0.85rem;
+    }
+
+    span {
+      color: $grey;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .testimonials {
+    padding: 10.1rem 5rem;
+
+    &__title {
+      font-size: 1.25rem;
+      letter-spacing: 5.1px;
+      margin-bottom: 5.2rem;
+    }
+
+    &__list {
+      flex-direction: row;
+      row-gap: 0;
+      column-gap: 1.9rem;
+      justify-content: center;
+    }
+
+    &__item {
+      width: 350px;
+
+      img {
+        margin-bottom: 3.5rem;
+      }
+
+      p {
+        margin-bottom: 4.5rem;
+      }
+    }
+  }
+
+}

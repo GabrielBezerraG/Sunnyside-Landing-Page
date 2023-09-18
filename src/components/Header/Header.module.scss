@@ -1,0 +1,89 @@
+@import '../../styles/variables';
+
+.header {
+  background: url('../../assets/images/mobile/image-header.jpg') center / cover no-repeat;
+  height: 540px;
+
+  &__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.25rem;
+    margin-bottom: 4.25rem;
+    position: relative;
+  }
+
+  &__logo {
+    width: 124px;
+  }
+  
+  &__button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  h1 {
+    font-family: $title-font;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.6rem;
+    text-align: center;
+    letter-spacing: 6.5px;
+    color: $white;
+    margin-bottom: 3.5rem;
+  }
+
+  &__arrowdown {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 275px) {
+  .header h1 {
+      font-size: 1.85rem;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .header h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header {
+    background-image: url(../../assets/images/desktop/image-header.jpg);
+    height: 800px;
+  }
+
+  h1 {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .header{
+
+    &__bar {
+      padding: 2.25rem 2.5rem;
+      margin-bottom: 4.9rem;
+    }
+
+    &__logo {
+      width: 170px;
+    }
+
+    &__button {
+      display: none;
+    }
+
+    h1 {
+      font-size: 3.4rem;
+      letter-spacing: 10px;
+      margin-bottom: 6.25rem;
+    }
+  }
+}
