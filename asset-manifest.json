@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Sunnyside-Landing-Page/static/css/main.b84c39f0.css",
+    "main.js": "/Sunnyside-Landing-Page/static/js/main.e232f912.js",
+    "static/media/image-header.jpg": "/Sunnyside-Landing-Page/static/media/image-header.9167cda0c72b56b2cda5.jpg",
+    "static/media/image-graphic-design.jpg": "/Sunnyside-Landing-Page/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/Sunnyside-Landing-Page/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "static/media/logo.svg": "/Sunnyside-Landing-Page/static/media/logo.4271b8992622e4dd1cc7de08466dab06.svg",
+    "index.html": "/Sunnyside-Landing-Page/index.html",
+    "static/media/icon-arrow-down.svg": "/Sunnyside-Landing-Page/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
+    "static/media/icon-hamburger.svg": "/Sunnyside-Landing-Page/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
+    "main.b84c39f0.css.map": "/Sunnyside-Landing-Page/static/css/main.b84c39f0.css.map",
+    "main.e232f912.js.map": "/Sunnyside-Landing-Page/static/js/main.e232f912.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b84c39f0.css",
+    "static/js/main.e232f912.js"
+  ]
+}
